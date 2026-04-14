@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+:root{}
+body{
+    height:100%;
+    width:100%;
+    overflow-x:hidden;
+}
+
+.navbar{
+    border: 2px solid red;
+    width:97.6%;
+    height:8%;
+    position:fixed;
+    top:3%;
+    left:1.2%;
+    right:1.2%;
+}
+
+.banner1{
+    border: 2px solid rgb(96, 189, 59);
+    width:100%;
+    height:104vh;
+}
+
+.row1{
+    border: 2px solid rgb(22, 29, 19);
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    margin:6.2%;
+    width:87.6%;
+    height:65vh;
+}
+
+.row1 section{
+     border: 2px solid rgb(22, 29, 19)
+}
+
+
