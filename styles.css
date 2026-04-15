@@ -5,6 +5,7 @@
 }
 
 :root{}
+
 body{
     height:100%;
     width:100%;
@@ -53,22 +54,60 @@ main{
     display:flex;
     flex-flow:column nowrap;
     align-items:center;
-
     width:100%;
     height:65vh;
+}
+
+.row1 section:hover{
+    cursor:pointer;
 }
 
 .row1 section .img1{
 height:85%;
   border: 2px solid rgb(79, 18, 148);
   width:100%;
+position:relative;
+}
+
+.frontimage{
+    opacity: 1;
+}
+
+.backimage{
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.size-problems{
+    overflow: hidden;
+}
+
+.pre-order{
+    position: absolute;
+    top:5%;
+    right:0px;
+    font-size: 0.72rem;
+    padding: 6px 17px;
+    background-color: rgb(194, 139, 57);
+}
+
+.frontimage:hover{
+    opacity: 0;
+    transition-duration: 0.25s;
+    transition-timing-function: linear;
 }
 
 .row1 section .text{
     padding-top:1.5%;
     height: 15%;
-      border: 2px solid rgb(112, 89, 14);
-      width:100%;
+    border: 2px solid rgb(112, 89, 14);
+    width:100%;
+    display: flex;
+    flex-flow: row nowrap;
+justify-content: space-between;
 }
 
 .row2 section{
@@ -82,6 +121,15 @@ height:85%;
 height:85%;
   border: 2px solid rgb(70, 121, 230);
   width:100%;
+  position:relative;
+}
+
+.img2-prblm5-1{
+    position: absolute;
+    top: -32%;
+}
+.img2-prblm5-2{
+    transform: scaleX(1.1) scaleY(1.35);
 }
 
 .row2 section .text2{
@@ -89,12 +137,20 @@ height:85%;
     height: 15%;
       border: 2px solid rgb(112, 89, 14);
       width:100%;
+       display: flex;
+    flex-flow: row nowrap;
+justify-content: space-between;
 }
 
 .banner2{
      border: 2px solid rgb(70, 121, 230);
     width:100%;
     height:79vh;
+    background-image: url(./images/banner2.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .row3{
@@ -116,26 +172,34 @@ border: 2px solid rgb(224, 16, 103);
     width:100%;
 }
 
-/* .row3:first-child{
+.row3 section:first-child{
 margin-left: 0%;
 }
 
-.row3:last-child{
+.row3 section:last-child{
 margin-right: 0%;
 
-} */
+}
 
 .row3 section .img3{
 height:85%;
   border: 2px solid rgb(79, 18, 148);
   width:100%;
+  position:relative;
 }
+
+ .img3-prblm6-2{
+    left: -37.5%;
+ }
 
 .row3 section .text3{
     padding-top:1.5%;
     height: 15%;
       border: 2px solid rgb(112, 89, 14);
       width:100%;
+       display: flex;
+    flex-flow: row nowrap;
+justify-content: space-between;
 }
 
 footer{
