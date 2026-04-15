@@ -10,9 +10,12 @@ body{
     width:100%;
     overflow-x:hidden;
     font-family: 'Prompt', sans-serif;
+    background-color:  #f0efed;
+      
 }
 
 .banner1{
+    background-image: ;
     border: 2px solid rgb(96, 189, 59);
     width:100%;
     height:104vh;
