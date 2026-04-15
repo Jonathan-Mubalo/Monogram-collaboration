@@ -12,6 +12,12 @@ body{
     font-family: 'Prompt', sans-serif;
 }
 
+.banner1{
+    border: 2px solid rgb(96, 189, 59);
+    width:100%;
+    height:104vh;
+}
+
 /*Navbar*/
 .navbar{
     background-color: rgb(36, 36, 92);
@@ -25,26 +31,49 @@ body{
     z-index: 3;
 }
 
-.nav-links{
-    display:flex;
-    justify-content: flex-end;
-    padding: 0% 2%;
- 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2a5a;
+  padding: 10px 40px;
 }
 
-.nav-links li{
-    list-style:none;
-    padding: 0% 2%;
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #cbb3a0;
+  font-size: small;
+  word-spacing: 7px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #cbb3a0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #cbb3a0;
+  text-decoration: underline;
+}
+.dropdown{
+  background-color: white;
+}
+
+.dropdown:hover{
+  color: #1f2a5a;
+  display: block;
 
 
 }
 
-.banner1{
-    border: 2px solid rgb(96, 189, 59);
-    width:100%;
-    height:104vh;
-}
-
+/*BODY*/
 main{
  border: 2px solid rgb(141, 42, 141);
 }
@@ -165,7 +194,7 @@ height:85%;
     justify-items: center;
     width: 100%;
     height: 50vh;*/
-}
+
 
 footer div{
      border: 2px solid rgb(15, 179, 23);
