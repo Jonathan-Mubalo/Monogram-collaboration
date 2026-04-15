@@ -10,17 +10,21 @@
   --preorder-textc:#212529;
 }
 
-body {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  font-family: "Prompt", sans-serif;
+:root{}
+body{
+    height:100%;
+    width:100%;
+    overflow-x:hidden;
+    font-family: 'Prompt', sans-serif;
+    background-color:  #f0efed;
+      
 }
 
-.banner1 {
-  border: 2px solid rgb(96, 189, 59);
-  width: 100%;
-  height: 104vh;
+.banner1{
+    background-image: ;
+    border: 2px solid rgb(96, 189, 59);
+    width:100%;
+    height:104vh;
 }
 
 /*Navbar*/
@@ -49,7 +53,7 @@ body {
   gap: 20px;
   align-items: center;
   color: #cbb3a0;
-  font-size: small;
+  font-size: 12px;
   word-spacing: 7px;
 }
 
@@ -64,7 +68,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #cbb3a0;
+  color: #C89484;
   text-decoration: underline;
 }
 .dropdown {
@@ -273,12 +277,13 @@ main {
   color: grey;
 }
 
-/*footer{
-    border: 2px solid rgb(79, 18, 148);
-    display:grid;
-    grid-template-columns: repeat(4, 1fr) 35%;
-    grid-template-rows: 100%;
-    justify-items: center;
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr; 
+    gap: 40px;
+    padding: 50px;
+    background-color: #1f2a5a;
+    color: #Efc2B3;
     width: 100%;
     height: 50vh;*/
 
@@ -316,12 +321,12 @@ footer li {
 
 footer a {
   text-decoration: none;
-  color: #cbd3ff;
+  color:  #Efc2B3;
   transition: 0.3s;
 }
 
 footer a:hover {
-  color: white;
+  color: #Efc2B3;
   text-decoration: underline;
 }
 
@@ -354,22 +359,44 @@ footer h3 {
 
 .f5 input {
   padding: 10px;
-  border: 1px solid #cbb3a0;
+  border: 1px solid #Efc2B3;
   background: transparent;
   color: white;
   width: 180px;
 }
 
 .f5 button {
+  display:block;
+   width: 100%;
   padding: 10px 20px;
-  background-color: #cbb3a0;
+  background-color: #Efc2B3;
   border: none;
   cursor: pointer;
   font-weight: bold;
+  border-radius: 29px;
+  
 }
+
 
 .f5 .info {
   font-size: 14px;
   line-height: 1.5;
   margin-top: 10px;
+}
+ 
+
+.icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.icons iconify-icon {
+  font-size: 20px;
+  color: #cbb3a0;
+  border: 1px solid #cbb3a0;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
 }
