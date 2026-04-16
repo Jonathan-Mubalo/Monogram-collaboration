@@ -423,17 +423,20 @@ footer div h3[class="subscribe"]{
 }
 
 .f5 .subscribed {
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-}
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+   width: 100%;
+   padding: 0px;
+   }
 
 .f5 input {
-  padding: 5.5px;
+  padding:  5.5px 5.5px 5.5px 0px;
   border: 1px solid #efc2b3;
   background: transparent;
   color: white;
   width: 180px;
+  border-radius: 0px;
 }
 
 .f5 input::placeholder{
@@ -455,7 +458,7 @@ footer div h3[class="subscribe"]{
 }
 
 .icons {
-  margin: 0% 2%;
+  margin: 0% 4% 0% 0%;
   margin-top: 4%;
 }
 
@@ -483,23 +486,6 @@ footer div h3[class="subscribe"]{
    .f4{order:5;}
 
    .f5{order:2;}
-
-   .f5 .subscribed {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-   width: 100%;
-   padding: 0px;
-   }
-
-   .f5 input {
-    padding:  5.5px 5.5px 5.5px 0PX;
-  }
-
-   .icons {
-  margin: 0% 4% 0% 0%;
-  margin-top: 4%;
-}
 }
 
 @media screen and (max-width:830px){
