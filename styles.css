@@ -128,15 +128,34 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+  /* animation-name: banners;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1;
+animation-fill-mode: foward; */
 }
 
 .headers {
   z-index: 1;
+  margin-top: 17.6%;
+  font-size: 55px;
+  font-weight: 100px;
+  line-height: 110%;
+}
+
+.heading{
+    font-size: 23px;
+    line-height: 275%;
 }
 
 .button-down {
-  justify-self: flex-end;
-  z-index: 1;
+  margin-top: 14%;
+  display: block;
+}
+
+.button-down:hover{
+  color: white;
+  transform: translate(1.15);
+  transition: 1s;
 }
 
 /*BODY*/
@@ -465,8 +484,25 @@ footer div h3[class="subscribe"]{
 .icon2{
   margin-top: 3.7%;
 } 
+/* 
+@keyframes banners {
+  0%{
+    background-color: darkslategray;}
+    100%{
+  background-image: url(./images/banner1.jpeg);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+  } */
 
 @media screen and (max-width:990px){
+/* ROW 1 BODY STYLING */
+.row1{
+  margin:1% auto;
+  width: 668.25px;
+}
 
   /* FOOTER STYLING */
   footer{
@@ -495,6 +531,13 @@ footer div h3[class="subscribe"]{
   }
 }
 
+@media screen and (max-width:830px){
+.row1{
+  flex-flow: column nowrap;
+   margin:1% auto;
+  width: 565px;}
+}
+
 @media screen and (max-width:700px){
 
     footer div{
@@ -511,6 +554,11 @@ footer div h3[class="subscribe"]{
 
 
 @media screen and (max-width:575px){
+
+  .row1{
+  flex-flow: column nowrap;
+   margin: 1% auto;
+  width: 92%;};
 
    .f1{order:2;}
 
