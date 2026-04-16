@@ -20,14 +20,19 @@ body{
 }
 
 .banner1{
-    background-image: ;
+  background-image: url(./images/banner1.jpeg);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(40%);
     border: 2px solid rgb(96, 189, 59);
     width:100%;
     height:104vh;
 }
 
 /*Navbar*/
-.navbar {
+.navbar{
   background-color: var(--navbar-background);
   border: 2px solid red;
   width: 97.6%;
@@ -39,18 +44,20 @@ body{
   z-index: 3;
 }
 
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1f2a5a;
   padding: 10px 40px;
-}
+  
+} */
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap:25px;
   align-items: center;
+  justify-content: end;
   color: #cbb3a0;
   font-size: 12px;
   word-spacing: 7px;
@@ -306,6 +313,13 @@ footer {
     height: 43vh;
 }
 
+footer div {
+  border: 2px solid rgb(15, 179, 23);
+  margin: 0% 1% 10%;
+  width: 100%;
+  height: 100%;
+}
+
 footer div{
      /* margin: 5% 0% 0%; */
      width:100%;
@@ -386,9 +400,5 @@ footer h3 {
   gap: 15px;
   /* margin-top: 20px; */
 
-}
-
-.icon2{
-  margin-top: 9%;
 }
 
