@@ -131,6 +131,7 @@ main {
 }
 
 .row1 section .img1 {
+  cursor: pointer;
   height: 85%;
   border: 2px solid rgb(79, 18, 148);
   width: 100%;
@@ -170,6 +171,7 @@ main {
 }
 
 .row1 section .text {
+  cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
   border: 2px solid rgb(112, 89, 14);
@@ -190,6 +192,7 @@ main {
 }
 
 .row2 section .img2 {
+  cursor: pointer;
   height: 85%;
   border: 2px solid rgb(70, 121, 230);
   width: 100%;
@@ -205,6 +208,7 @@ main {
 }
 
 .row2 section .text2 {
+  cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
   border: 2px solid rgb(112, 89, 14);
@@ -256,6 +260,7 @@ main {
 }
 
 .row3 section .img3 {
+  cursor: pointer;
   height: 85%;
   border: 2px solid rgb(79, 18, 148);
   width: 100%;
@@ -267,6 +272,7 @@ main {
 }
 
 .row3 section .text3 {
+  cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
   border: 2px solid rgb(112, 89, 14);
@@ -283,6 +289,16 @@ main {
   color: grey;
 }
 
+.text:hover, .text2:hover, .text3:hover{
+cursor: pointer;
+color:black;
+}
+
+.soldout:hover{
+ cursor: pointer;
+color:grey; 
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
@@ -293,8 +309,14 @@ footer {
     background-color: #1f2a5a;
     color: #Efc2B3;
     width: 100%;
-    font-size: 13.5px;
-    height: 43vh;
+    height: 50vh;
+}
+
+footer div {
+  border: 2px solid rgb(15, 179, 23);
+  margin: 0% 1% 10%;
+  width: 100%;
+  height: 100%;
 }
 
 footer div{
@@ -379,6 +401,3 @@ footer h3 {
 
 }
 
-.icon2{
-  margin-top: 9%;
-}
