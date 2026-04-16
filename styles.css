@@ -26,7 +26,6 @@ body {
   background-size: cover;
   -webkit-backdrop-filter: brightness(500px);
   backdrop-filter: brightness(500px);
-  border: 2px solid rgb(96, 189, 59);
   width: 100%;
   height: 104vh;
 }
@@ -34,7 +33,6 @@ body {
 /*Navbar*/
 .navbar {
   background-color: var(--navbar-background);
-  border: 2px solid red;
   width: 97.6%;
   height: 8%;
   position: fixed;
@@ -142,12 +140,8 @@ header {
 }
 
 /*BODY*/
-main {
-  border: 2px solid rgb(141, 42, 141);
-}
 
 .row1 {
-  border: 2px solid rgb(22, 29, 19);
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -158,7 +152,6 @@ main {
 }
 
 .row1 section {
-  border: 2px solid rgb(34, 167, 177);
   width: 49%;
   height: 64vh;
   margin: 0% 0.5%;
@@ -173,7 +166,6 @@ main {
 }
 
 .row1 section {
-  border: 2px solid rgb(115, 192, 179);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -188,7 +180,6 @@ main {
 .row1 section .img1 {
   cursor: pointer;
   height: 85%;
-  border: 2px solid rgb(79, 18, 148);
   width: 100%;
   position: relative;
 }
@@ -229,7 +220,6 @@ main {
   cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
-  border: 2px solid rgb(112, 89, 14);
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
@@ -255,7 +245,6 @@ main {
 }
 
 .row2 section {
-  border: 2px solid rgb(38, 1, 56);
   margin: 1% 8.55%;
   width: 82.9%;
   height: 80vh;
@@ -264,7 +253,6 @@ main {
 .row2 section .img2 {
   cursor: pointer;
   height: 85%;
-  border: 2px solid rgb(70, 121, 230);
   width: 100%;
   position: relative;
 }
@@ -281,7 +269,6 @@ main {
   cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
-  border: 2px solid rgb(112, 89, 14);
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
@@ -303,7 +290,6 @@ main {
 }
 
 .banner2 {
-  border: 2px solid rgb(70, 121, 230);
   width: 100%;
   height: 79vh;
   background-image: url(./images/banner2.png);
@@ -314,7 +300,6 @@ main {
 }
 
 .row3 {
-  border: 2px solid rgb(224, 16, 103);
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -324,7 +309,6 @@ main {
 }
 
 .row3 section {
-  border: 2px solid rgb(115, 192, 179);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -343,7 +327,6 @@ main {
 .row3 section .img3 {
   cursor: pointer;
   height: 85%;
-  border: 2px solid rgb(79, 18, 148);
   width: 100%;
   position: relative;
 }
@@ -356,7 +339,6 @@ main {
   cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
-  border: 2px solid rgb(112, 89, 14);
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
