@@ -10,7 +10,6 @@
   --preorder-textc:#212529;
 }
 
-:root{}
 body{
     height:100%;
     width:100%;
@@ -125,6 +124,7 @@ main {
 }
 
 .row1 section .img1 {
+  cursor: pointer;
   height: 85%;
   border: 2px solid rgb(79, 18, 148);
   width: 100%;
@@ -164,6 +164,7 @@ main {
 }
 
 .row1 section .text {
+  cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
   border: 2px solid rgb(112, 89, 14);
@@ -184,6 +185,7 @@ main {
 }
 
 .row2 section .img2 {
+  cursor: pointer;
   height: 85%;
   border: 2px solid rgb(70, 121, 230);
   width: 100%;
@@ -199,6 +201,7 @@ main {
 }
 
 .row2 section .text2 {
+  cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
   border: 2px solid rgb(112, 89, 14);
@@ -250,6 +253,7 @@ main {
 }
 
 .row3 section .img3 {
+  cursor: pointer;
   height: 85%;
   border: 2px solid rgb(79, 18, 148);
   width: 100%;
@@ -261,6 +265,7 @@ main {
 }
 
 .row3 section .text3 {
+  cursor: pointer;
   padding-top: 1.5%;
   height: 15%;
   border: 2px solid rgb(112, 89, 14);
@@ -275,6 +280,16 @@ main {
 
 .soldout, .price{
   color: grey;
+}
+
+.text:hover, .text2:hover, .text3:hover{
+cursor: pointer;
+color:black;
+}
+
+.soldout:hover{
+ cursor: pointer;
+color:grey; 
 }
 
 footer {
@@ -392,12 +407,3 @@ footer h3 {
   margin-top: 20px;
 }
 
-.icons iconify-icon {
-  font-size: 20px;
-  color: #cbb3a0;
-  border: 1px solid #cbb3a0;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  transition: 0.3s;
-}
