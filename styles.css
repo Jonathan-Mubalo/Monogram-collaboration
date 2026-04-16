@@ -4,7 +4,6 @@
     padding:0;
 }
 
-:root{}
 body{
     height:100%;
     width:100%;
@@ -15,7 +14,7 @@ body{
 }
 
 .banner1{
-    background-image: ;
+  
     border: 2px solid rgb(96, 189, 59);
     width:100%;
     height:104vh;
@@ -276,16 +275,6 @@ footer h3 {
 
 .icons {
   display: flex;
-  gap: 15px;
+  gap: 5px;
   margin-top: 20px;
-}
-
-.icons iconify-icon {
-  font-size: 20px;
-  color: #cbb3a0;
-  border: 1px solid #cbb3a0;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  transition: 0.3s;
 }
