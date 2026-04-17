@@ -582,7 +582,7 @@ footer div h3[class="subscribe"]{
 
    .f4{order:5;}
 
-   .f5{order:1;}
+   .f5{order:0 !important;}
 
     footer div{
     padding-right: 65px;
