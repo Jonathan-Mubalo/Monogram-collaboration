@@ -603,4 +603,7 @@ footer div h3[class="subscribe"]{
     footer div{
     padding-right: 28px;
   }
+
+  .f5{order:0 !important;
+      padding-right: 20px;}
 }
