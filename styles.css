@@ -167,7 +167,7 @@ animation-fill-mode: foward; */
   margin-top: 2%;
   margin: 1% 8.55%;
   width: 82.9%;
-  height: 65vh;
+  height: auto;
 }
 
 .row1 section {
@@ -227,6 +227,8 @@ animation-fill-mode: foward; */
   padding: 6px 17px;
   background-color: var(--preorder-color);
   color: var(--preorder-textc);
+  /* width:25%;
+  height:10%; */
 }
 
 .frontimage:hover {
@@ -316,28 +318,28 @@ animation-fill-mode: foward; */
 
 .row3 {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin: 2% 8.55%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 2% 6.55%;
   width: 82.9%;
-  height: 60vh;
+  height: auto;
 }
 
 .row3 section {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin: 0% 2%;
-  width: 100%;
+  margin: 3% 2%;
+  width: 25%;
 }
 
-.row3 section:first-child {
+/* .row3 section:first-child {
   margin-left: 0%;
 }
 
 .row3 section:last-child {
   margin-right: 0%;
-}
+} */
 
 .row3 section .img3 {
   cursor: pointer;
@@ -504,6 +506,10 @@ footer div h3[class="subscribe"]{
   width: 668.25px;
 }
 
+.row3 section {
+  width:30%;
+}
+
   /* FOOTER STYLING */
   footer{
     height:90vh;
@@ -536,6 +542,14 @@ footer div h3[class="subscribe"]{
   flex-flow: column nowrap;
    margin:1% auto;
   width: 565px;}
+}
+
+
+@media screen and (max-width:750px){
+
+  .row3 section {
+  width:100%;
+}
 }
 
 @media screen and (max-width:700px){
