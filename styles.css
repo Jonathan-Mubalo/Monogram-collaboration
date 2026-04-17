@@ -522,6 +522,11 @@ footer div h3[class="subscribe"]{
    .f4{order:5;}
 
    .f5{order:2;}
+
+   .n1, .n2, .n3, .n4{
+
+   display: none;
+}
 }
 
 @media screen and (max-width:830px){
